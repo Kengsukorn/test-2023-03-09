@@ -40,7 +40,7 @@ function App() {
   return (
     <form onSubmit={handleSubmit}>
       <label>
-        รับข้อมูล:
+        กรุณากรอกข้อมูล:
         <input type="text" value={inputValue} onChange={handleChange} placeholder={"ABXXXXXXXXXX"}/>
       </label>
       <br />
